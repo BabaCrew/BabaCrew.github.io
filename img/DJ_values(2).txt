@@ -1,0 +1,71 @@
+insert into D_CDS values (90,'The Celebrants Live in Concert','Old Town Records','1997');
+insert into D_CDS values (91,'Party Music for All Occasions','The Music Man','2000');
+insert into D_CDS values (92,'Back to the Shire','Middle Earth Records','2002');
+insert into D_CDS values (93,'Songs from My Childhood','Old Town Records','1999');
+insert into D_CDS values (94,'Carpe Diem','R&B Inc.','2000');
+insert into D_CDS values (95,'Here Comes the Bride','The Music Man','2001');
+insert into D_CDS values (96,'Graduation Songbook','Tunes Are Us','1998');
+insert into D_CDS values (98,'Whirled Peas','Old Town Records','2004');
+insert into D_CLIENTS values (5922,'Hiram','Peters',3715832249,'hpeters@yahoo.com');
+insert into D_CLIENTS values (5857,'Serena','Jones',7035335900,'serena.jones@jones.com');
+insert into D_CLIENTS values (6133,'Lauren','Vigil',4072220090,'lbv@lbv.net');
+insert into D_EVENTS values (100,'Peters Graduation','05/14/2004','Party for 200, red, white, blue motif',8000,100,112,200,5922);
+insert into D_EVENTS values (105,'Vigil wedding','04/28/2004','Black tie at Four Season hotel',10000,220,200,200,6133);
+insert into D_JOB_ASSIGNMENTS values (11,105,'02/02/2004','Visited');
+insert into D_PACKAGES values (79,500,2500);
+insert into D_PACKAGES values (87,2501,5000);
+insert into D_PACKAGES values (112,5001,10000);
+insert into D_PACKAGES values (200,10001,15000);
+insert into D_PARTNERS values (11,'Jennifer','cho','Weddings','All Types',NULL,33,'Wedding Coordinator');
+insert into D_PARTNERS values (22,'Jason','Tsang',NULL,'Hip Hop',NULL,33,'Disk Jockey');
+insert into D_PARTNERS values (33,'Allison','Plumb','Event Planning',NULL,300000,33,'Manager');
+insert into D_PLAY_LIST_ITEMS values (100,45,'Play late');
+insert into D_PLAY_LIST_ITEMS values (100,46,NULL);
+insert into D_PLAY_LIST_ITEMS values (100,47,'Play early');
+insert into D_PLAY_LIST_ITEMS values (105,48,'Play after cake cutting');
+insert into D_PLAY_LIST_ITEMS values (105,49,'Play first');
+insert into D_PLAY_LIST_ITEMS values (105,47,'Play for the father');
+INSERT INTO D_PLAY_LIST_ITEMS VALUES (105, 51, 'Play last');
+insert into D_SONGS values (45,'Its Finally Over','5 min','The Hobbits',12);
+insert into D_SONGS values (46,'Im Going to Miss My Teacher','2 min','Jane Pop',12);
+insert into D_SONGS values (47,'Hurrah for Today','3 min','The Jubilant Trio',77);
+insert into D_SONGS values (48,'Meet Me At the Altar','6 min','Bobby West',1);
+insert into D_SONGS values (49,'Lets Celebrate','8 min','The Celebrants',77);
+insert into D_SONGS values (50,'All These Years','10 min','Diana Crooner',88);
+INSERT INTO D_SONGS VALUES (51, 'Natural Blues', '6 min', 'Moby', 12);
+INSERT INTO D_SONGS VALUES (52, 'Cocody Rock', '4 min', 'Alpha Blondy', 40);
+insert into D_THEMES values (200,'Tropical');
+insert into D_THEMES values (220,'Carnival');
+insert into D_THEMES values (240,'Sixties');
+insert into D_THEMES values (110,'Classic');
+insert into D_THEMES values (198,'Mardi Gras');
+insert into D_THEMES values (454,'Eighties');
+insert into D_THEMES values (340,'Football');
+insert into D_THEMES values (502,'Fairy Tale');
+insert into D_TRACK_LISTINGS values (45,92,1);
+insert into D_TRACK_LISTINGS values (46,93,1);
+insert into D_TRACK_LISTINGS values (47,91,2);
+insert into D_TRACK_LISTINGS values (48,95,5);
+insert into D_TRACK_LISTINGS values (49,91,3);
+INSERT INTO D_TRACK_LISTINGS VALUES (52, 91, 1);
+insert into D_TYPES values (1,'Jazz');
+insert into D_TYPES values (12,'Pop');
+insert into D_TYPES values (40,'Reggae');
+insert into D_TYPES values (88,'Country');
+insert into D_TYPES values (77,'New Age');
+insert into D_VENUES values (100,'Private Home','52 West End Drive, Los Angeles, CA 90210','0','Large kitchen, spacious lawn');
+insert into D_VENUES values (105,'Private Home','123 Magnolia Road, Hudson, N.Y. 11220','0','3 level townhouse, speakers on all floors');
+insert into D_VENUES values (101,'Private Home','4 Primrose Lane, Chevy Chase, MD 22127','0','Gazebo, multi-level deck');
+insert into D_VENUES values (95,'School Hall','4 Mahogany Drive, Boston, MA 10010','75/hour','School closes at 10pm');
+insert into D_VENUES values (99,'National Park','87 Park Avenue, San Diego, CA 28978','400/flat fee','Bring generators');
+insert into D_VENUES values (220,'Hotel','200 Pennsylvania Ave, Washington D.C. 09002','300/per person','Classy affair, tight security, private entrance for vendors');
+
+
+
+
+
+
+
+
+
+
