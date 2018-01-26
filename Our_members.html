@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Our members</title>
+    <meta charset="utf-8">
+    <meta name=description content="*">
+    <meta name="keywords" content="*">
+    <meta name="author" content="Baba Mietje">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="css/Website.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <style>
+        h1+ul {
+            list-style-type: none;
+            display: flex;
+            height: 70vh;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0;
+        }
+       ul li a {
+            text-decoration: none;
+           color: white;
+        }
+        li {
+            background-color: black;
+            height: 100%;
+            margin: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media screen and (min-width:1000px){
+            li {
+                margin: 2vh;
+                transition: transform 1s linear;
+            }
+            li:hover:nth-last-child(even) {
+                transform: skewY(5deg);
+            }
+            li:hover:nth-last-child(odd) {
+                transform: skewY(-5deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Baba Crew<img src="img/Eggplant_Emoji_grande.png" style="height:50px;"></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Our_members.html">Our members</a></li>
+            <li><a href="FAQ.html">what the FAQ</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Our members</h1>
+    <ul>
+        <li><a href="Memberz/BABA_autistic_cunt.html">BABA Prostate Caner</a></li>
+        <li><a href="Memberz/BABA_Coeman.html">BABA Coeman</a></li>
+        <li><a href="Memberz/BABA_Kjell_Spotter.html">BABA Patser</a></li>
+        <li><a href="Memberz/BABA_Mietje.html">Baba Brocky Shnocky</a></li>
+        <li><a href="Memberz/BABA_Rode_Ridder.html">BABA T-rex Lauki</a></li>
+        <li><a href="Memberz/BABA_Vreetzak.html">BABA Big Kjek</a></li>
+        <li><a href="Memberz/BABA_Spaugmuil.html">BABA Camelidae</a></li>
+    </ul>
+    <footer>
+        Made by Hakan Sahan
+    </footer>
+</body>
+
+</html>
